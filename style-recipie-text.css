@@ -1,24 +1,46 @@
 #recipie-text-section h1{
     text-align: center;
+    font-size:40px;
 
     
 }
-#recipie-text-section p{
-    text-align: center;
+#recipie-text-section-p{
+    padding:10px 250px; 
+    text-align:center;
+    margin-bottom: 50px;
+    font-size:25px;
 
     
 }
 
-#recipie-div{
+.recipie-div{
     display: flex;
+    margin-bottom:50px;
 }
+.div-recipie-img-text{
+    padding:10px;
+    margin:0px 10px 0px 25px;
+    border:2px solid #f1eded;
+    box-shadow: 2px 2px 15px 2px #c2bfbf;
+    border-radius:20px;
+}
+
 .recipie-img{
-   width:320px;
+   width:340px;
    height:300px;
    padding:20px;
-   margin-left:50px;
-   border: 1px solid #b1abab;
-   border-radius:10px;
+   border-radius:30px;
 
 
+}
+.div-recipie-img-text h2{
+    font-size:25px;
+    font-weight:900;
+    text-align:center;
+
+}
+.div-recipie-img-text {
+    text-align: justify;
+
+    padding:10px
 }
