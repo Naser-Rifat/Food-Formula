@@ -1,0 +1,249 @@
+/* Body part start */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Body-part-End */
+
+/* ------------------ */
+
+/* Navigation-part-Start */
+
+#navigation{
+    overflow:hidden;
+    color:rgb(248, 248, 248);
+    background-image:linear-gradient(to left, rgb(110, 179, 32),green);
+    width:100%;
+    border-radius:3px;
+    margin:0px;
+}
+#navigation #home{
+    background-image:linear-gradient(to right, #6afd08,rgb(136, 209, 19));
+    color: white;
+
+
+}
+
+#navigation a:hover{
+    background-image:linear-gradient(to right, #6afd08,rgb(136, 209, 19));
+    color: blanchedalmond;
+}
+
+#navigation a{
+    float:left;
+    text-decoration: none;
+    padding:20px 50px;
+    text-align: center;
+    color:#fffdfd;
+    border-radius: 2px;
+
+}
+/* Navigation-part-End*/
+
+
+/* ------------------ */
+
+
+/* top-section-start */
+#top-section{
+
+    display:flex;
+    margin-bottom:100px;
+
+}
+
+
+.green{
+    color:chartreuse;
+}
+
+#top-section-left-div{
+    padding:120px 0px 0px 150px;
+    width:50%;
+}
+
+#top-section-left-div h1{
+    font-size:50px;
+    margin-bottom:0px;
+}
+#top-section-left-div p{
+
+    margin-bottom:50px;
+}
+#top-section-right-div img {
+    margin-top:0px;
+      width:550px;
+      height:600px;
+}
+.button:hover{
+    opacity:.7;
+}
+
+.button{
+    background-image:linear-gradient(to left,#7db104,green);
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    padding:10px 20px;
+    border-radius:5px;
+    
+    
+}
+/* top-section-end */
+
+
+/* ------------------ */
+
+
+/* Chef-section-start */
+
+#chef-info-section{
+
+    background-image: url(image/shapes/bg.png);
+    background-repeat:no-repeat;
+    margin:0px;
+}
+
+#chef-info-section{
+display: flex;
+
+}
+#chef-section-left-div{
+
+    width:40%;
+   
+}
+#chef-section-right-div{
+
+    padding:50px 10px 20px 150px;
+   
+}
+#chef-section-left-div img{
+
+    width:600px;
+    height:600px;
+}
+#chef-section-right-div h1{
+    text-align: center;
+    margin-bottom:80px;
+
+    
+}
+#chef-section-right-div p{
+    text-align:justify;
+    margin:50px 10px 50px 0px;
+
+    
+}
+/* Chef-section-end */
+
+/* ------------------ */
+
+/* Recipe-section-start */
+
+
+#recipe-text-section h1{
+    text-align: center;
+    font-size:40px;
+
+    
+}
+#recipe-text-section-p{
+    padding:10px 250px; 
+    text-align:center;
+    margin-bottom: 50px;
+    font-size:25px;
+
+    
+}
+
+.recipe-div{
+    display: flex;
+    margin-bottom:50px;
+}
+.div-recipe-img-text{
+    padding:10px;
+    margin:0px 10px 0px 25px;
+    border:2px solid #f1eded;
+    box-shadow: 2px 2px 11px 2px #c2bfbf;
+    border-radius:20px;
+}
+
+.recipe-img{
+   width:340px;
+   height:300px;
+   padding:20px;
+   border-radius:30px;
+
+
+}
+.div-recipe-img-text h2{
+    font-size:25px;
+    font-weight:900;
+    text-align:center;
+
+}
+.div-recipe-img-text {
+    text-align: justify;
+
+    padding:10px
+}
+/* Recipe-section-end */
+
+/* ------------------ */
+
+/* info-section-Start*/
+
+
+.recipe-div-web-info{
+    display: flex;
+    margin: 250px 50px 100px 60px;
+    padding-left:250px;
+    border:2px solid #f1eded;
+    box-shadow: 2px 2px 11px 2px #c2bfbf;
+    border-radius:20px;
+    
+
+}
+
+.web-info-all{
+padding:50px;
+text-align: center;
+
+}
+/* info-section-end */
+
+
+/* ------------------ */
+
+
+/* footer-section-start */
+
+footer{
+    background-color: black;
+    padding:10px;
+    margin:0px;
+    border-radius:2px;
+}
+footer h2{
+    text-align: center;
+    color: white;
+ 
+ }
+
+
+footer h5{
+    color: white;
+    text-align: center;
+
+}
+
+/* footer-section-end */
+
+
+
+
+
+
