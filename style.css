@@ -13,10 +13,14 @@ body{
 #navigation{
     overflow:hidden;
     color:rgb(248, 248, 248);
-    background-image:linear-gradient(to left, rgb(110, 179, 32),green);
+    background-image:linear-gradient(to left, rgb(110, 179, 32),#f4faf4);
     width:100%;
     border-radius:3px;
     margin:0px;
+}
+#navigation img{
+    width:300px;
+    height:64px;
 }
 #navigation #home{
     background-image:linear-gradient(to right, #6afd08,rgb(136, 209, 19));
@@ -31,9 +35,9 @@ body{
 }
 
 #navigation a{
-    float:left;
+    float:right;
     text-decoration: none;
-    padding:20px 50px;
+    padding:24px 50px;
     text-align: center;
     color:#fffdfd;
     border-radius: 2px;
