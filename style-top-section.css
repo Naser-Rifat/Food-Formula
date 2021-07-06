@@ -1,0 +1,44 @@
+
+#top-section{
+
+    display:flex;
+    margin-bottom:100px;
+
+}
+
+
+.green{
+    color:green;
+}
+
+#top-section-left-div{
+    padding:150px 0px 0px 200px;
+       width:50%;
+}
+
+#top-section-left-div h1{
+    font-size:50px;
+    margin-bottom:0px;
+}
+#top-section-left-div p{
+
+    margin-bottom:50px;
+}
+#top-section-right-div img {
+      width:550px;
+      height:600px;
+}
+.button:hover{
+    opacity:.7;
+}
+
+.button{
+    background-image:linear-gradient(to left,#7db104,green);
+    text-decoration:none;
+    text-align: center;
+    color:#fffdd0;
+    padding:5px 10px;
+    border-radius:5px;
+    
+    
+}
